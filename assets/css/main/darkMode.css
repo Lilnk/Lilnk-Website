@@ -1,0 +1,212 @@
+body {
+    background: #121212;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #eee;
+}
+
+.navbar-brand svg #Path_9,
+.navbar-brand svg #Path_10 {
+    fill: #eee;
+}
+
+input:checked+.slider {
+    background: #414141;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(25px);
+    -ms-transform: translateX(25px);
+    transform: translateX(25px);
+    background: #242424 url('../../img/themeToggleIcons/dark-toggle-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/******************** Set place holder for input ********************/
+#Url::-webkit-input-placeholder {
+    /* Edge */
+    color: #686868;
+}
+
+#Url:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #686868;
+}
+
+#Url::placeholder {
+    color: #686868;
+}
+
+
+/******************** modal style ********************/
+.modal {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.modal-content {
+    background-color: #222222;
+}
+
+
+/******************** set background ********************/
+.backgorund {
+    opacity: .5;
+}
+
+
+
+/******************** Disable outline on every item in bootstrap ********************/
+a:focus,
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input:focus,
+[contenteditable].form-control:focus {
+    box-shadow: inset 0 0 0 0 #ddd;
+}
+
+
+.search-form {
+    border-color: #303030;
+    color: #bbb !important;
+    background-color: #242424;
+}
+
+.search-form:focus {
+    border-color: #5e5e5e;
+    background-color: #202020;
+}
+
+#showResult {
+    background-color: #1D1D1D;
+    border: solid 1px #494949;
+    color: #999999 !important;
+}
+
+.show-result-div span {
+    color: #999999;
+}
+
+
+.text-gray {
+    color: #bbb !important;
+}
+
+.text-dark {
+    color: #ccc !important;
+}
+
+.bg-light {
+    background-color: #212121 !important;
+}
+
+.bg-light-2 {
+    background-color: #1D1D1D !important;
+}
+
+.bg-red {
+    background-color: #e42b63 !important;
+}
+
+.text-red {
+    color: #e42b63;
+}
+
+.text-blue {
+    color: #1972E6;
+}
+
+
+/******************** button blue ********************/
+.btn-blue {
+    background: #1972E6;
+    color: #eee;
+    box-shadow: unset !important;
+}
+
+.btn-blue:hover {
+    background: #257beb;
+    color: #fff;
+    box-shadow: unset !important;
+}
+
+.btn-blue:active {
+    background: #4a8ee7;
+}
+
+
+/******************** button blue ********************/
+.btn-light-blue {
+    background: #53D6FF;
+    color: #fff;
+    box-shadow: unset !important;
+}
+
+.btn-light-blue:hover {
+    background: #45caf3;
+    color: #fff;
+    box-shadow: unset !important;
+}
+
+.btn-light-blue:active {
+    background: #25ccff;
+}
+
+
+/******************** button blue ********************/
+.btn-green {
+    background: #19c79b;
+    color: #fff;
+    box-shadow: unset !important;
+}
+
+.btn-green:hover {
+    background: #15bd93;
+    color: #fff;
+    box-shadow: unset !important;
+}
+
+.btn-green:active {
+    background: #13af88;
+}
+
+
+/******************** button blue ********************/
+.btn-red {
+    background: #F93771;
+    color: #eee;
+    box-shadow: unset !important;
+}
+
+.btn-red:hover {
+    background: #fd2a69;
+    color: #fff;
+    box-shadow: unset !important;
+}
+
+.btn-red:active {
+    background: #e42b63;
+}
+
+
+.showQR {
+    border: solid 1px #242424;
+    background-color: #FBFDFF;
+}
+
+
+#preloader {
+    background: #242424;
+}

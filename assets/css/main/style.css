@@ -1,0 +1,421 @@
+/******************** Set font ********************/
+body,
+* {
+    font-family: IRANSans;
+    font-weight: 400;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    margin: 0 !important;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+@media (max-width: 576px) {
+    footer p {
+        font-size: 12px;
+    }
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #D8E3EB;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 34px;
+    width: 34px;
+    left: -5px;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, .05);
+    background: white url('../../img/themeToggleIcons/light-toggle-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+/******************** Set place holder for input ********************/
+#Url::-webkit-input-placeholder {
+    /* Edge */
+    color: #bbb;
+}
+
+#Url:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #bbb;
+}
+
+#Url::placeholder {
+    color: #bbb;
+}
+
+
+/******************** modal style ********************/
+.modal .modal-content {
+    border-radius: 2px !important;
+    border: none !important;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+
+/******************** set background ********************/
+.backgorund {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../../img/covers/backgorund.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    z-index: -99999;
+}
+
+
+.wrapper {
+    padding-top: 100px;
+}
+
+@media (min-width: 576px) {
+    .wrapper {
+        padding-top: 120px;
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        padding-top: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+        padding-top: 170px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapper {
+        padding-top: 190px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .wrapper {
+        padding-top: 200px;
+    }
+}
+
+
+/******************** set ltr to inputs ********************/
+.ltr {
+    direction: ltr !important;
+}
+
+/******************** Fonts size ********************/
+.text-small {
+    font-size: 0.8em;
+}
+
+.text-xsmall {
+    font-size: 0.6em;
+}
+
+.text-large {
+    font-size: 1.2em;
+}
+
+.text-xlarge {
+    font-size: 1.4em;
+}
+
+.text-xxlarge {
+    font-size: 3em;
+}
+
+
+/******************** Font weight ********************/
+.text-ultralight {
+    font-weight: 200;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.text-regular {
+    font-weight: normal;
+}
+
+.text-medium {
+    font-weight: 500;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-black {
+    font-weight: 900;
+}
+
+
+/******************** Disable outline on every item in bootstrap ********************/
+a:focus,
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input:focus,
+[contenteditable].form-control:focus {
+    box-shadow: inset 0 0 0 0 #ddd;
+}
+
+
+.search-form {
+    border-radius: 2px !important;
+}
+
+#showResult {
+    background-color: #E9F2FF;
+    border: solid 1px #DAEAFF;
+    color: #69728C;
+    padding-left: 45px !important;
+}
+
+#copiedUrl {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.show-result-div {
+    position: relative;
+}
+
+.show-result-div input {
+    position: absolute;
+    width: 100%;
+}
+
+.show-result-div span {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: #69728C;
+}
+
+.text-gray {
+    color: #5D5D5D !important;
+}
+
+.bg-light {
+    background-color: #f3f3f3 !important;
+}
+
+.bg-light-2 {
+    background-color: #f8f8f8 !important;
+}
+
+.bg-red {
+    background-color: #e42b63 !important;
+}
+
+.text-red {
+    color: #e42b63;
+}
+
+.text-blue {
+    color: #1972E6;
+}
+
+
+/******************** Custom button ********************/
+.btn {
+    border-radius: 2px !important;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn:hover {
+    color: white;
+}
+
+
+/******************** button blue ********************/
+.btn-blue {
+    background: #1972E6;
+    color: white;
+    box-shadow: 0 5px 10px -5px #1972E6 !important;
+}
+
+.btn-blue:hover {
+    background: #3b80db;
+    color: white;
+    box-shadow: 0 10px 20px -10px #1972E6 !important;
+}
+
+.btn-blue:active {
+    background: #5994e2;
+}
+
+
+/******************** button blue ********************/
+.btn-light-blue {
+    background: #53D6FF;
+    color: white;
+    box-shadow: 0 5px 10px -5px #53D6FF !important;
+}
+
+.btn-light-blue:hover {
+    background: #45caf3;
+    color: white;
+    box-shadow: 0 10px 20px -10px #53D6FF !important;
+}
+
+.btn-light-blue:active {
+    background: #25ccff;
+}
+
+
+/******************** button blue ********************/
+.btn-green {
+    background: #19c79b;
+    color: white;
+    box-shadow: 0 5px 10px -5px #19c298 !important;
+}
+
+.btn-green:hover {
+    background: #15bd93;
+    color: white;
+    box-shadow: 0 10px 20px -10px #19c298 !important;
+}
+
+.btn-green:active {
+    background: #13af88;
+}
+
+
+/******************** button blue ********************/
+.btn-red {
+    background: #F93771;
+    color: white;
+    box-shadow: 0 5px 10px -5px #F93771 !important;
+}
+
+.btn-red:hover {
+    background: #fd2a69;
+    color: white;
+    box-shadow: 0 10px 20px -10px #F93771 !important;
+}
+
+.btn-red:active {
+    background: #e42b63;
+}
+
+
+.modal-md {
+    max-width: 600px;
+}
+
+
+.showQR {
+    border-radius: 2px;
+    border: solid 1px #B5D5FF;
+    background-color: #FBFDFF;
+    padding: 20px;
+    width: fit-content;
+}
+
+#showQR img {
+    max-width: 100%;
+}
+
+
+#preloader {
+    position: fixed;
+    z-index: 99999;
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.over {
+    overflow: hidden;
+}
+
+#preloader #logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#showAll {
+    font-family: IRANSansFa;
+    font-weight: 900;
+}
