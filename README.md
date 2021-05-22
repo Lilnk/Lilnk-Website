@@ -13,7 +13,7 @@
 1. ابتدا فایل را دانلود کنید و در سرور یا کامپیتور خود استخراج کنید.
 2. به این فایل بروید `./assets/js/main/script.js`
 3. در خط `90` این کلمه را `"example"` به آدرس API خود تغییر دهید.
-4. در خط `95` این بخش را `"example":"example"` به این شکل `"API_Hedear":"API_Value"` با توجه به اطلاعات خود تغییر دهید.
+4. در خط `95` این بخش را `"example":"example"` به این شکل `"API_Header":"API_Value"` با توجه به اطلاعات خود تغییر دهید.
 5. فایل را ذخیره کرده و آن را داخل هاست خود آپلود نمایید.
 
 ## پیشرفته
@@ -34,7 +34,7 @@ Lilnk is a **Free**, Simple and Fast link Shortener.
 1. Download and extract the file to your server or computer.
 2. Go to `./assets/js/main/script.js` file.
 3. In line `90` change the `"example"` to your API Address.
-4. In line `95` change the `"example":"example"` to your `"API_Hedear":"API_Value"`
+4. In line `95` change the `"example":"example"` to your `"API_Header":"API_Value"`
 5. Save the file and upload it to your Host.
 
 ## Advanced
